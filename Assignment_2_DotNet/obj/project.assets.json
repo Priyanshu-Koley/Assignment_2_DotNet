@@ -2751,19 +2751,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DotNet\\Assignment_2_DotNet\\Assignment_2_DotNet\\Assignment_2_DotNet.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Internship\\DotNet\\Assignment_2_DotNet\\Assignment_2_DotNet\\Assignment_2_DotNet.csproj",
       "projectName": "Assignment_2_DotNet",
-      "projectPath": "E:\\DotNet\\Assignment_2_DotNet\\Assignment_2_DotNet\\Assignment_2_DotNet.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\DotNet\\Assignment_2_DotNet\\Assignment_2_DotNet\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Internship\\DotNet\\Assignment_2_DotNet\\Assignment_2_DotNet\\Assignment_2_DotNet.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Internship\\DotNet\\Assignment_2_DotNet\\Assignment_2_DotNet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2842,7 +2842,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

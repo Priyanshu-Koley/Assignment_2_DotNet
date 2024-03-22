@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Assignment_2_DotNet.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240322112959_InitDb")]
+    [Migration("20240322153654_InitDb")]
     partial class InitDb
     {
         /// <inheritdoc />
@@ -73,7 +73,7 @@ namespace Assignment_2_DotNet.Migrations
                     b.HasOne("Assignment_2_DotNet.Entities.Models.Department", "Department")
                         .WithMany()
                         .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.SetNull)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Department");

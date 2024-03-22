@@ -18,6 +18,7 @@ public class EmployeeController : ControllerBase
         _mapper = mapper;
     }
 
+    // Get all employees
     [HttpGet]
     public async Task<IActionResult> GetAllEmployeesAsync()
     {
@@ -25,6 +26,7 @@ public class EmployeeController : ControllerBase
         return Ok(employees);
     }
 
+    // Get an employee by id
     [HttpGet("{id}")]
     public async Task<ActionResult<Employee>> GetEmployeeByIdAsync(Guid id)
     {
@@ -37,6 +39,7 @@ public class EmployeeController : ControllerBase
         return Ok(employee);
     }
 
+    // Create an employee
     [HttpPost]
     public async Task<ActionResult<EmployeeDto>> CreateEmployeeAsync(EmployeeDto employeeDto)
     {
@@ -55,6 +58,7 @@ public class EmployeeController : ControllerBase
         }
     }
 
+    // Update an employee by id
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateEmployeeByIdAsync(Guid id, EmployeeDto employeeDto)
     {
@@ -81,6 +85,7 @@ public class EmployeeController : ControllerBase
         return Ok(employee);
     }
 
+    // Delete an employee
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteEmployeeByIdAsync(Guid id)
     {

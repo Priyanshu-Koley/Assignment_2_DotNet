@@ -70,7 +70,7 @@ namespace Assignment_2_DotNet.Migrations
                     b.HasOne("Assignment_2_DotNet.Entities.Models.Department", "Department")
                         .WithMany()
                         .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.SetNull)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Department");
